@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reservation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/form.css">
+    <link rel="stylesheet" type="text/css" href="css/desktop_menu.css">
+    <link rel="stylesheet" type="text/css" href="css/footer_sticky.css">
+    <link rel="stylesheet" type="text/css" href="css/mobile_menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- icon for mobile menu-->
+</head>
+<body>
+<div class="grid">
+    <div class="item1">
+            <img src="image/header.jpg" alt="Header image">
+    </div>
+    <div class="item2" id="item2">
+        <div class="mobile-container">
+            <div class="topnav">
+                <a class="active">Reservation</a>
+                <div id="links">
+                    <a href="index.html">Home</a>
+                    <a href="rate.html">Rate</a>
+                    <a href="books.html">Books</a>
+                    <a href="login.html">Sign in</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+        <div class="desktop-container">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rate.html">Rate</a></li>
+            <li><a href="books.html">Books</a></li>
+            <li><a class="active">Reservation</a></li>
+            <li><a href="login.html">Sign in</a></li>
+        </ul>
+        </div>
+    </div>
+    <div class="item3">
+        <div class="img_form">
+            <div class="container">
+                <form name="form" onsubmit="return validateForm()" method="post">
+                    <input type="text" id="first" name="first" placeholder="First Name">
+                    <input type="text" id="last" name="last" placeholder="Last Name">
+                    <input type="text" id="phone" name="phone" placeholder="Phone Number">
+                    <input type="text" id="email" name="email" placeholder="E-mail">
+                    <select id="destination" name="country">
+                        <option value="default">Select Your Destination</option>
+                        <option value="marrakech">Marrakech</option>
+                        <option value="paris">Paris</option>
+                        <option value="rimini">Rimini</option>
+                        <option value="ibiza">Ibiza</option>
+                    </select>
+                    <textarea id="message" placeholder="Your message..." style="height:100px"></textarea><br>
+                    <input type="submit" name="submit" value="Submit" onclick="local_storage()">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="item4">
+        <h6>Copyright (c) 2020 Halim Dakir</h6>
+    </div>
+</div>
+<script src="script/localStorage.js"></script>
+<script src="script/form_validation.js"></script>
+<script src="script/mobile_menu.js"></script>
+<script src="script/header_fixed.js"></script>
+</body>
+</html>

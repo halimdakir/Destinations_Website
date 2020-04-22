@@ -1,0 +1,66 @@
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.65);
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        opacity: 0.8;
+        resize: vertical;
+        background: rgba(0, 0, 0, .4);
+        color: rgba(252, 220, 6, .8);
+
+    }
+    input[type=submit] {
+        background-color: rgba(255, 62, 31, 0.4);
+        color: rgba(252, 240, 241, 0.66);
+        width: 100%;
+        border-radius: 6px;
+        border: 1px solid rgba(255, 255, 255, 0.65);
+        padding: 12px 20px;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+        background-color: #fba207;
+        color: rgba(252, 240, 241, 0.99);
+    }
+
+    .container {
+        display: inline-block;
+        border: 1px solid rgba(255, 255, 255, 0.39);
+        background: rgba(0, 0, 0, .5);
+        padding: 5px 5px;
+    }
+    ::-webkit-input-placeholder { /* Edge */
+        color: #fced62;
+    }
+
+    :-ms-input-placeholder { /* Internet Explorer */
+        color: #fced62;
+    }
+
+    ::placeholder {
+        color: #fced62;
+    }
+    /* Mobile */
+    @media screen and (max-width: 400px) {
+
+    }
+    /* Tablet */
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    }
+    /* Desktop */
+    @media screen and (min-width: 1025px) {
+        .container {
+            display: inline-block;
+            border: 1px solid rgba(255, 255, 255, 0.39);
+            background: rgba(0, 0, 0, .5);
+            padding: 10px 10px;
+            width: 60%;
+            height: 60%;
+        }
+    }
+

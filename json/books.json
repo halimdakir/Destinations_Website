@@ -1,0 +1,12 @@
+[
+  {
+    "image": "<img src=\"image/books/book1.jpg\">", "info": "<h5>Dollar</h5><p>Lee Child</p>", "buy": "<img src=\"image/books/buy.png\">"},
+  {
+    "image": "<img src=\"image/books/book2.jpg\">", "info": "<h5>Hollys hemlighet - Woodwalkers</h5><p>Katja Brandis</p>", "buy": "<img src=\"image/books/buy.png\">"},
+  {
+    "image": "<img src=\"image/books/book3.jpg\">", "info": "<h5>Månberlocken</h5><p>Peter Bunzl</p>", "buy": "<img src=\"image/books/buy.png\">"},
+  {
+    "image": "<img src=\"image/books/book4.jpg\">", "info": "<h5>Omgiven av motgångar</h5><p>Thomas Erikson</p>", "buy": "<img src=\"image/books/buy.png\">"},
+  {
+    "image": "<img src=\"image/books/book5.jpg\">", "info": "<h5>Hon som måste dö</h5><p>David Lagercrantz</p>", "buy": "<img src=\"image/books/buy.png\">"}
+]

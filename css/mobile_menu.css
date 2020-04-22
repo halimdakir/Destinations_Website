@@ -1,0 +1,73 @@
+.mobile-container {
+ display: inline;
+}
+.desktop-container{
+    display: none;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+
+.topnav #links {
+    display: none;
+}
+
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.83);
+}
+
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    background-color: rgba(237, 255, 11, 0.69);
+    color: black;
+}
+
+.active {
+    background-color: #ff9409;
+    color: black;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .item3 {
+    padding-top: 100px;
+}
+.desktop-container{
+    display: none;
+}
+/* Mobile */
+@media screen and (max-width: 400px) {
+
+}
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+}
+/* Desktop */
+@media screen and (min-width: 1025px) {
+    .desktop-container{
+        display: inline;
+    }
+    .mobile-container{
+        display: none;
+    }
+
+}

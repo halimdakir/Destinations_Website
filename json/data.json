@@ -1,0 +1,11 @@
+{"articles": [
+  {
+    "image": "image/article/marrakesh.jpg", "title": "MARRAKECH", "text": "Marrakech marches to its own beat. The former imperial capital is as manic as Mardi Gras and as hip as ", "more": "Hollywood. Throw yourself in at the deep end by exploring the twisting alleyways of the medieval medina, a fortified city within a city. From glassware to brassware, silverware to lacquerware." },
+  {
+    "image": "image/article/paris.jpg", "title": "PARIS", "text": "Paris, capital of France, is one of the most important and influential cities in the world. In terms of tourism, ", "more":  " Paris is the second most visited city in Europe after London. In this travel guide, you’ll find out about the city’s top attractions, as well as useful travel advice on how to get to Paris and how to save money whilst traveling."},
+  {
+    "image": "image/article/rimini.jpg", "title": "RIMINI", "text": "Rimini today is a thriving, bustling resort on the Italian Riviera that boasts \"over a thousand hotels\". ", "more":  "It is Italy's biggest beach resort and it is very famous all over Europe, with 15 km of sandy beach plus thousands of bars, restaurants and discos."},
+  {
+    "image": "image/article/ibiza.jpg", "title": "IBIZA", "text": "One of the most popular islands in the Balearic Islands, Ibiza is one of the most famous party destinations in ", "more": "entire Europe. It is one of the islands in the Balearic archipelago, off the coast of Spain. The culture and history of this place dates back to the Phoenician times."}
+    ]
+}

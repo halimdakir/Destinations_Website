@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rate</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/desktop_menu.css">
+    <link rel="stylesheet" type="text/css" href="css/article.css">
+    <link rel="stylesheet" type="text/css" href="css/mobile_menu.css">
+    <link rel="stylesheet" type="text/css" href="css/footer_sticky.css">
+    <link rel="stylesheet" type="text/css" href="css/rate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- icon for mobile menu-->
+
+</head>
+<body>
+<div class="grid">
+    <div class="item1" >
+        <img src="image/header.jpg" alt="Header image">
+    </div>
+    <div class="item2" id="item2">
+        <div class="mobile-container">
+            <div class="topnav">
+                <a class="active">Rate</a>
+                <div id="links">
+                    <a href="index.html">Home</a>
+                    <a href="books.html">Books</a>
+                    <a href="reservation.html">Reservation</a>
+                    <a href="login.html">Sign in</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+        <div class="desktop-container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active">Rate</a></li>
+                <li><a href="books.html">Books</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="login.html">Sign in</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="item3">
+        <div class="img_form">
+                <div id="div_rate" class="div_rate">
+                    <h3>RATE OUR SERVICES</h3>
+                    <form name="rateForm" method="post">
+                        <input type="text" id="fullName" placeholder="Full Name">
+                        <select id="stars" name="stars">
+                            <option value="5">5 Stars</option>
+                            <option value="4">4 Stars</option>
+                            <option value="3">3 Stars</option>
+                            <option value="2">2 Stars</option>
+                            <option value="1">1 Star</option>
+                        </select>
+                        <textarea id="rate_text" placeholder="Your text here ..." style="height:100px"></textarea>
+                        <p id="errorMessage"> </p>
+                        <button type="button" onclick="dynamic_row()">Confirm</button>
+                    </form>
+                        <table id="rate">
+                            <tr><td>
+                                 <span>
+                                            <img src="image/rate/on.png" alt="On">
+                                            <img src="image/rate/on.png" alt="On">
+                                            <img src="image/rate/on.png" alt="On">
+                                            <img src="image/rate/off.png" alt="Off">
+                                            <img src="image/rate/off.png" alt="Off">
+                                            </span>
+                                <h5>Halim Dakir</h5>
+                                <p>Thanks for your support before and during my trip.</p>
+                            </td></tr>
+                        </table>
+                </div>
+        </div>
+    </div>
+    <div class="item4">
+        <h6>Copyright (c) 2020 Halim Dakir</h6>
+    </div>
+</div>
+<script src="script/add_rate_script.js"></script>
+<script src="script/mobile_menu.js"></script>
+<script src="script/header_fixed.js"></script>
+<script src="script/check_rate_form.js"></script>
+</body>
+</html>

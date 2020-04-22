@@ -1,0 +1,74 @@
+.login_box{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding: 5px 40px 40px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0, .5);
+}
+.user{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.login_box p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #fff;
+}
+.login_box input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login_box input[type="email"],
+.login_box input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+::placeholder{
+    color: rgba(255,255,255, .5);
+
+}
+.login_box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background-color: rgba(255, 62, 31, 0.4);
+    cursor: pointer;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.65);
+}
+.login_box input[type="submit"]:hover{
+    background: darkorange;
+    color: black;
+}
+.login_box a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+/* Mobile */
+@media screen and (max-width: 400px) {
+
+}
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+}
+/* Desktop */
+@media screen and (min-width: 1025px) {
+    .login_box{
+        width: 50%;
+        height: 50%;
+    }
+}

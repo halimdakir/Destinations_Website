@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Books</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/desktop_menu.css">
+    <link rel="stylesheet" type="text/css" href="css/article.css">
+    <link rel="stylesheet" type="text/css" href="css/mobile_menu.css">
+    <link rel="stylesheet" type="text/css" href="css/footer_sticky.css">
+    <link rel="stylesheet" type="text/css" href="css/table.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- icon for mobile menu-->
+
+
+</head>
+<body>
+<div class="grid">
+    <div class="item1">
+        <img src="image/header.jpg" alt="Header image">
+    </div>
+    <div class="item2" id="item2">
+        <div class="mobile-container">
+                <div class="topnav">
+                        <a class="active">Books</a>
+                            <div id="links">
+                                <a href="index.html">Home</a>
+                                <a href="rate.html">Rate</a>
+                                <a href="reservation.html">Reservation</a>
+                                <a href="login.html">Sign in</a>
+                            </div>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                </div>
+         </div>
+        <div class="desktop-container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rate.html">Rate</a></li>
+                <li><a class="active">Books</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="login.html">Sign in</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="item3">
+        <div class="img_form">
+            <div class="showData" id="showData"></div>
+        </div>
+    </div>
+    <div class="item4">
+        <h6>Copyright (c) 2020 Halim Dakir</h6>
+    </div>
+</div>
+<script src="script/mobile_menu.js"></script>
+<script src="script/header_fixed.js"></script>
+<script src="script/book_script.js"></script>
+</body>
+</html>

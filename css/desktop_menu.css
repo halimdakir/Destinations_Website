@@ -1,0 +1,58 @@
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #181818;
+
+    }
+    li {
+        float: left;
+        width: 100%;
+        border: 1px solid rgba(255, 255, 255, 0.83);
+        font-family: serif;
+
+    }
+
+
+    li a {
+        display: block;
+        color: wheat;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+
+    }
+
+    li a:hover:not(.active) {
+        background-color: rgba(197, 255, 56, 0.82);
+        color: black;
+    }
+
+    .active {
+        background-color: #ffeb45;
+        color: black;
+    }
+
+    /* Mobile */
+    @media screen and (max-width: 400px) {
+        .active {
+             font-weight: bold;
+        }
+    }
+    /* Tablet */
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+        /*li {
+            border: 1px solid rgba(255, 255, 255, 0.83);
+            float: left;
+            width: 50%;
+        }*/
+    }
+    /* Desktop */
+    @media screen and (min-width: 1025px) {
+        li {
+            border: none;
+            float: left;
+            width: 20%;
+        }
+    }

@@ -1,0 +1,11 @@
+div.item4 {
+    //position: -webkit-sticky;
+    //position: sticky;
+    bottom: 0;
+    background-color: #ff8f05;
+    color: white;
+}
+.item4 h6{
+    font-family: 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
